@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>my site</title>
+	<style type="text/css">
+		.box1 {
+			background: white;
+			position: absolute;
+			height: 500px;
+			width: 225px;
+			top: 0px;
+			left: 100px;
+			transition: 1s;
+		}
+
+		.box2 {
+			background: red;
+			position: absolute;
+			height: 50px;
+			width: 225px;
+			top: 0px;
+			left: 100px;
+			transition: 1s;
+		}
+
+		.box3 {
+			background: green;
+			position: absolute;
+			height: 50px;
+			width: 225px;
+			top: 70px;
+			left: 100px;
+			transition: 1s;
+		}
+
+		.box4 {
+			background: blue;
+			position: absolute;
+			height: 50px;
+			width: 225px;
+			top: 140px;
+			left: 100px;
+			transition: 1s;
+		}
+
+		.box5 {
+			background: purple;
+			position: absolute;
+			height: 50px;
+			width: 225px;
+			top: 210px;
+			left: 100px;
+			transition: 1s;
+		}
+	</style>
+</head>
+<body>
+	<div class="box1">
+		<div class="box2">
+			
+		</div>
+		<div class="box3">
+			
+		</div>
+		<div class="box4">
+			
+		</div>
+		<div class="box5">
+			
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		document.querySelector(".box1").onclick = function() {
+			document.querySelector(".box3").style.height = "235px"
+			document.querySelector(".box3").style.width = "50px"
+			document.querySelector(".box3").style.left = "225px"
+			document.querySelector(".box3").style.top = "35px"
+			document.querySelector(".box4").style.height = "235px"
+			document.querySelector(".box4").style.width = "50px"
+			document.querySelector(".box4").style.left = "490px"
+			document.querySelector(".box4").style.top = "35px"
+			document.querySelector(".box5").style.left = "270px"
+			document.querySelector(".box5").style.top = "240px"
+			document.querySelector(".box2").style.left = "270px"
+		}
+	</script>
+</body>
+</html>
